@@ -12,8 +12,8 @@ public class Plate {
          catch(IOException e) {
              System.out.println("Не переполняйте миску!");
              food=100;}
-     this.food=food;
- }}
+        } this.food=food;
+ }
  public void decreaseFood (int appetite, Cat cat){
      if (this.food-appetite<0) {
      this.food =0;
